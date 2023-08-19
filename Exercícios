@@ -17,3 +17,9 @@ O(n)
 
 1.6 - Você quer ler os números apenas dos nomes que começam com A.
 O(n)
+
+1.7 - Suponhamos que você esteja criando um aplicativo para acompanhar suas finanças.
+Todos os dias você anotará tudo o que gastou e onde gastou. No final do mês, você deverá revisar os seus gastos e resumir o quanto gastou.
+Logo você terá um monte de inserções e poucas leituras, você deverá usar um array ou uma lista para implementar este aplicativo ?
+
+Uma lista encadeada, pois um array apresenta como característica uma leitura rápida, mas inserção lenta, listas possuem leituras lentas e inserções rápidas, nesse caso teremos de inserir mais do que ler, ou seja, uma lista é mais vantajoso.
